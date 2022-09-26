@@ -25,14 +25,14 @@ public class Transaction {
      */
     @Id // PK 지정
     @GeneratedValue
-    private Long id; // TODO 베이스 엔티티로 만들어 보기
+    private Long id;
 
 
 
     @Enumerated(EnumType.STRING) // 열거형을 문자형태로 저장
     private TransactionType transactionType;
     @Enumerated(EnumType.STRING) // 열거형을 문자형태로 저장
-    private TransactionResultType transactionResultType;
+    private TransactionResultType transactionResult;
 
     @ManyToOne
     private Account account;

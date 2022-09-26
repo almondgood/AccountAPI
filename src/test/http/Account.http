@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "initialBalance": 500000
+  "initialBalance": 100000
 }
 
 
@@ -19,5 +19,5 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "accountNumber": "1000000001"
+  "accountNumber": "1000000000"
 }

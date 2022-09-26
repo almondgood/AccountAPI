@@ -26,7 +26,7 @@ public class TransactionDto {
         return TransactionDto.builder()
                 .accountNumber(transaction.getAccount().getAccountNumber())
                 .transactionType(transaction.getTransactionType())
-                .transactionResultType(transaction.getTransactionResultType())
+                .transactionResultType(transaction.getTransactionResult())
                 .amount(transaction.getAmount())
                 .balanceSnapshot(transaction.getBalanceSnapshot())
                 .transactionId(transaction.getTransactionId())
